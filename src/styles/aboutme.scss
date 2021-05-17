@@ -1,0 +1,25 @@
+
+.AboutMe {
+    height: 100vh;
+    position: relative;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.right {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.left {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.about {
+    font-size: 40px;
+    text-align: justify;
+    padding: 100px;
+}
