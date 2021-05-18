@@ -2,6 +2,7 @@
 import React from 'react';
 import '../styles/projects.scss'
 import wmapTN from '../img/WMAPTn.png'
+import rocket from '../img/rocket.png'
 
 class Projects extends React.Component {
     render() {
@@ -17,6 +18,26 @@ class Projects extends React.Component {
                             The entire project was completed using Python.
                         </p>
                         <img className="pic" src={wmapTN} alt="WMAP Pic"></img>
+                    </div>
+                    <div className="spacer"></div>
+                    <div className="proj2">
+                        <h2 className="title">Rocket Design and Fly</h2>
+                        <p className="desc">
+                            The purpose of this project was to allow us to experience the process of designing and sizing rockets to meet the mission requirements.
+                            This project required the uuse and understanding of iterative design, material properties, flight dynamics, and flight simulations.
+                            The project was completed using Python to design the rockets and OpenRocket to test fly them.
+                        </p>
+                        <img className="pic" src={rocket} alt="WMAP Pic"></img>
+                    </div>
+                    <div className="spacer"></div>
+                    <div className="proj3">
+                        <h2 className="title">Simulation of Genetic Evolution</h2>
+                        <p className="desc">
+                            The purpose of this project was to allow us to experience the process of designing and sizing rockets to meet the mission requirements.
+                            This project required the uuse and understanding of iterative design, material properties, flight dynamics, and flight simulations.
+                            The project was completed using Python to design the rockets and OpenRocket to test fly them.
+                        </p>
+                        <img className="pic" src={rocket} alt="WMAP Pic"></img>
                     </div>
                 </div>
             </div>

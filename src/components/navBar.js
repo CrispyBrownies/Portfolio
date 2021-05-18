@@ -8,7 +8,7 @@ class NavBar extends React.Component {
             <div className="NavBar">
                 <img alt = 'SC Logo' className = 'logo' src= {SCLogo} draggable="false"></img>
                 <div className='NavButtonWrap'>
-                    <button className="btn from-top">Home</button>
+                    {/* <button className="btn from-top">Home</button> */}
                     <button className='btn from-top'>About Me</button>
                     <button className='btn from-top'>Projects</button>
                     
