@@ -1,3 +1,6 @@
+Notion Planner
+https://www.notion.so/Software-Engineer-Portfolio-Website-Project-Template-087ec5a6ee1d4304ad6fc09719916620?pvs=4
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
